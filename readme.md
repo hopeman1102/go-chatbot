@@ -1,7 +1,5 @@
 # chatbot
 
-English | [简体中文](readme-cn.md)
-
 `chatbot` is a conversational dialog engine build in Go which makes it possible to generate responses based on collections of known conversations. The language independent design of `chatbot` allows it to be trained to speak any language. It’s much faster than `ChatterBot`, our benchmark on 120 million conversations：
 
 - ChatterBot takes 21s to answer
@@ -34,7 +32,7 @@ English | [简体中文](readme-cn.md)
 
 ## Data format
 
-The data format can be provided via `yaml` or `json` files, refer to the format in `https://github.com/kevwan/chatterbot-corpus`. Roughly, it is as follows.
+The data format can be provided via `yaml` or `json` files. Roughly, it is as follows.
 
 ```yaml
 categories:
